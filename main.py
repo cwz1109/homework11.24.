@@ -24,12 +24,12 @@ while True:
         elif quaratic()==0:
             print("Thank you, that is a valid input:),I WILL SOLVE NOW.")
             print("Root is:",root1())
-            break
+            break# stop the code
         else:
             print("Thank you, that is a valid input:),I WILL SOLVE NOW.")
             print("Root 1:",root1())
             print("Root 2:",root2())
-            break
+            break# stop the code 
     except:
         print("That is not a real number!")
 
